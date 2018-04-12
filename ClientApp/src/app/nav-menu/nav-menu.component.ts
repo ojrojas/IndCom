@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 declare var $: any;
-    declare var jQuery:any;
+declare var jQuery:any;
 @Component({
   selector: 'app-nav-menu',
   templateUrl: './nav-menu.component.html',
@@ -8,7 +8,7 @@ declare var $: any;
 })
 export class NavMenuComponent {
   isExpanded = false;
-
+  usuario: string = "Oscar Rojas"
   collapse() {
     this.isExpanded = false;
   }
@@ -17,7 +17,7 @@ export class NavMenuComponent {
     this.isExpanded = !this.isExpanded;
   }
 
-  mostrarModal() {
+  toogleBar() {
     
     $('#myModal').modal('show');
   }
