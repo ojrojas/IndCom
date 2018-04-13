@@ -17,9 +17,4 @@ export class NavMenuComponent {
     this.isExpanded = !this.isExpanded;
   }
 
-  toogleBar() {
-    
-    $('#myModal').modal('show');
-  }
-
 }
