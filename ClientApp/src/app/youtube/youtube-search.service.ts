@@ -9,7 +9,6 @@ import 'rxjs/add/observable/fromEvent';
 import 'rxjs/add/operator/map';
 import { SearchResult } from "./search-result.model";
 
-
 @Injectable()
 export class YoutubeSearchService {
     constructor(private http: HttpClient, @Inject(YOUTUBE_API_KEY) private apiKey: string,
