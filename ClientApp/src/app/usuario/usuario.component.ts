@@ -1,5 +1,5 @@
 import { Component, ReflectiveInjector } from '@angular/core';
-import { UsuarioService } from '../services/usuario.service';
+import { UsuarioService } from './usuario.service';
 @Component({
     selector:'usuario-app',
     templateUrl:'./usuario.component.html',
